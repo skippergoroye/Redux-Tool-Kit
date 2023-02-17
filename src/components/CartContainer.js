@@ -15,7 +15,7 @@ const CartContainer = () => {
 
 
   useEffect(() => {
-    dispatch(getCartItems())
+    dispatch(getCartItems('random'))
   }, [dispatch])
 
 
